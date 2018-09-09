@@ -1,0 +1,20 @@
+{
+    "text_data_type": "transcripts",
+    "corpus_folder": "/research/home/rakesh/results/Article_Cleaning/transcripts/transcripts_use",
+    "corpus_fname": "transcripts_earnings_events.pkl",
+    "corpus_type": "event",
+    "filter_phrase_list": "relevant_phrases1",
+    "event_num_fname": "transcripts_earnings_events_num.pkl",
+    "returns_folder": "/home/ryan/Dev/research-analysis/rgreen/amer-indicator-sets/v2/packages/earnings/",
+    "mapping_folder": "/research/home/rakesh/results/Article_Cleaning/transcripts/transcripts_use",
+    "mapping_file": "transcript_earnings_mapping_past1.csv",
+    "returns_choice": ["fwd_xmkt_projnorm_sec_0_5", "fwd_xmkt_0_5"],
+    "WF_or_CV": "WF",
+    "periods_fname": "/research/home/rakesh/MyCode/WF_periods.csv",
+    "model_class_name": "NaiveBayesModel",
+    "model_class_nontext_name": "NaiveBayesModel",
+    "objective": "binary",
+    "binary_thresh": 0.5,
+    "scores_scaling": "none",
+    "results_directory": "/research/home/rakesh/results/WalkForward/Sentiment/tscripts2/phrase1_base"
+}
